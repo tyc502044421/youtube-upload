@@ -34,4 +34,9 @@ setup_kwargs = {
     ]
 }
 
+# windows
+import os
+if os.name == 'nt':
+    setup_kwargs["scripts"].append("bin/youtube-upload.bat")
+
 setup(**setup_kwargs)
