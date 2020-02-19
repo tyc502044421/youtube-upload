@@ -18,6 +18,7 @@ $ sudo pip install --upgrade google-api-python-client oauth2client progressbar2
 ```
 
 *Note: install httplib2 version 0.15.0
+
 ```pip install httplib2==0.15.0```
 
 Install
